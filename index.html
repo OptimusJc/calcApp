@@ -18,39 +18,46 @@
             </thead>
 
             <tbody class="tbody">
+
                 <tr>
-                    <th colspan="4" class="display"></th>
+                    <th colspan="4" class="display">
+                        <span data-previous-operand class="previous-operand"></span>
+                        <span data-current-operand class="current-operand"></span>
+                    </th>
                 </tr>
                 <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td class="divide">/</td>
+                    <td class="key--operator " data-operation>+</td>
+                    <td class="key--operator" data-operation>-</td>
+                    <td class="key--operator" data-operation>*</td>
+                    <td class="key--operator" data-operation>/</td>
                 </tr>
 
                 <tr>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>3</td>
-                    <td class="multiply">*</td>
+                    <td data-number>7</td>
+                    <td data-number>8</td>
+                    <td data-number>9</td>
+                    <td rowspan="4" class="key--equal" data-equal>=</td>
+
                 </tr>
 
                 <tr>
-                    <td>7</td>
-                    <td>8</td>
-                    <td>3</td>
-                    <td class="add">+</td>
+                    <td data-number>4</td>
+                    <td data-number>5</td>
+                    <td data-number>6</td>
+                </tr>
+
+                <tr>
+                    <td data-number>1</td>
+                    <td data-number>2</td>
+                    <td data-number>3</td>
+                </tr>
+
+                <tr>
+                    <td data-number>0</td>
+                    <td data-number>.</td>
+                    <td data-clear>AC</td>
                 </tr>
             </tbody>
-
-            <tfoot class="tfoot">
-                <tr>
-                    <td>0</td>
-                    <td>.</td>
-                    <td class="equal">=</td>
-                    <td class="subtract">-</td>
-                </tr>
-            </tfoot>
         </table>
     </div>
 
